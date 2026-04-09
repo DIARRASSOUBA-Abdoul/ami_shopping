@@ -1,7 +1,10 @@
 footer{
     background-color: #2d0a1e;
     padding: 50px 20px 10px 20px;
-    margin: -5px;
+    margin-top: -5px;
+    width: 100%;
+    overflow: hidden;
+    
 }
 
 footer .infor{
