@@ -1,0 +1,128 @@
+.container{
+    margin: 20px 30px;
+}
+
+.text{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #f95c8e;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    width: 180px;
+}
+
+.text img {
+    width: 20px;
+}
+
+/* Les cartes */
+
+
+.card_container{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    justify-content: center;
+}
+
+
+.card{
+    width: 250px;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: .3s all;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px 1px #f95c8e86;
+    scale: 0.97;
+}
+
+.card .image {
+    width: 100%;
+    height: 200px; /* hauteur fixe */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.info img {
+    width: 15px;
+    height: auto;
+}
+
+.info p {
+    white-space: nowrap;       
+    overflow: hidden;          
+    text-overflow: ellipsis;   
+    width: 240px;
+    font-size: 13px;
+}
+
+.bas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.prix{
+    display: flex;
+    gap: 5px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.prix img{
+    width: 20px;
+}
+
+.act_price{
+    font-weight: bold;
+}
+
+.pass_price{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.payer{
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    transition: .3s all ease-out;
+}
+
+.payer img{
+    width: 20px;
+}
+
+.payer:hover{
+    background-color: #f95c8e;
+    cursor: pointer;
+}
+

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui;
+}
+
+/* HEADER PRINCIPAL */
+.header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* LOGO */
+.logo img {
+    width: 100px;
+}
+
+/* ZONE RECHERCHE  */
+.search {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+    margin: 0 20px;
+}
+
+.search label {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 8px 10px;
+    border-radius: 6px;
+    flex: 1;
+}
+
+.search label img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* Bouton rechercher */
+.search button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #f95c8e;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search button:hover {
+    background-color: #e2356c;
+}
+
+/* BOUTONS DROITE */
+.header_btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* connection et panier */
+.connection,
+.panier {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+/* icônes */
+.connection img,
+.panier img {
+    width: 20px;
+}
+
+/* texte */
+.connection h3,
+.panier h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+/* badge */
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    background: #f95c8e;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .header {
+        align-items: center;
+    }
+
+    .logo img{
+        width: 70px;
+    }
+
+    .header_btn {
+        justify-content: flex-end;
+    }
+
+    .search button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    
+
+}
+
+ 
+@media (max-width: 480px) {
+
+    .logo img {
+        width: 50px;
+    }
+    
+    .search label img {
+        width: 16px;
+    }
+
+    .header_btn{
+        gap: 10px;
+    }
+
+    .connection img,
+    .panier img {
+        width: 18px;
+    }
+    .connection h3,
+    .panier h3 {
+        display: none;
+    }
+}
