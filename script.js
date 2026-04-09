@@ -18,8 +18,8 @@ const articles = [
     pass_prix: "15 000 FCFA",
   },
   {
-    nom: "Rose Oud",
-    image: "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=400",
+    nom: "Rose de paris",
+    image: "https://fashionistaparis.com/wp-content/uploads/2023/05/96.jpg",
     nbr_etoile: 5,
     description:
       "Un parfum de luxe mêlant la rose et l'oud pour une élégance absolue.",
