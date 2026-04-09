@@ -95,3 +95,8 @@ footer .compte{
     border: none;
     border-radius: 10px;
 }
+
+footer .infor p:hover {
+    color: #f95c8e;
+    cursor: pointer;
+}
