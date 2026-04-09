@@ -25,7 +25,7 @@
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
-    padding: 20px 10px;
+    padding: 20px 0px;
     justify-content: center;
 }
 
@@ -126,3 +126,13 @@
     cursor: pointer;
 }
 
+
+@media (max-width: 620px) {
+
+    .card_container{
+        gap: 10px;
+    }
+    .card{
+        width: 250px;
+    }
+}
