@@ -107,6 +107,7 @@
 
 .pass_price{
     text-decoration: line-through;
+    /* text-decoration: dotted; */
     color: gray;
 }
 
